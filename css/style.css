@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.parent{
+    background-color: orangered;
+}
+.thumbnail img{
+    width: 500px;
+    height: 500px 
+    
+}
+
+.photo_info{
+    background: aqua;
+    text-align: right;
+
+
+}
+.action_btn{
+    background:blue;
+    color: aqua;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+
+}
+.action_btn :hover{
+    color: aqua;
+
+}
+#chat{
+    position: fixed;
+    right: 100px;
+    bottom: 10px;
+    background-color:yellowgreen ;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: antiquewhite;
+    fornt size: 20px;
+    font-family:sans-sarif;
+}
+.id{
+    background-color: rgb(98, 98, 232);
+    
+}
+.sticky{
+    position: sticky;
+    background-color: rgb(15, 128, 227);
+    border: 2px solid cornflowerblue;
+    top: 20px;
+}
